@@ -9,7 +9,7 @@ const Header = ({ title }) => {
 
   return (
     <header className="header">
-      <h4 className="header">{title}</h4>
+      <h3 className="header">{title}</h3>
       <Button text="Add" onClick={onClick} />
     </header>
   )
